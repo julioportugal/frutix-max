@@ -13,6 +13,7 @@ body {
     flex-direction: column;
 }
 
+/* Encabezados y textos */
 h1 {
     font-size: 42px;
     margin-top: 10px;
@@ -29,8 +30,10 @@ h2 {
 
 .centrar {
     text-align: center;
+    margin-top: 15px; /* menos espacio para evitar encimado */
 }
 
+/* Sección principal */
 .seccion {
     background: #e8ffe8;
     padding: 20px;
@@ -39,6 +42,7 @@ h2 {
     border-radius: 12px;
 }
 
+/* Botón */
 .btn {
     background: #4CAF50;
     padding: 12px 25px;
@@ -48,21 +52,25 @@ h2 {
     font-size: 20px;
 }
 
+/* Logo */
 .logo {
     display: block;
     margin: 20px auto;
     width: 230px;
 }
 
+/* Marquee */
 .marquee {
     font-size: 26px;
     background: #4caf50;
     color: white;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 15px;       /* más alto para que no se vea reducido */
+    margin: 0;           /* quita margen extra */
     border-radius: 10px;
+    text-align: center;
 }
 
+/* Footer */
 .pie {
     padding: 15px;
     background: #e6e6e6;
@@ -73,12 +81,14 @@ h2 {
     margin-top: auto;   /* empuja el footer al fondo */
 }
 
+/* Lista de servicios */
 .lista-servicios {
     width: fit-content;
-    margin: auto;
+    margin: 20px auto;   /* espacio arriba y abajo para evitar encimado */
     font-size: 22px;
 }
 
+/* Galería */
 .galeria {
     display: flex;
     justify-content: center;
