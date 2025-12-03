@@ -7,26 +7,34 @@
 </head>
 <body>
 
+    <!-- Menú de navegación -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
     <!-- Encabezado animado -->
     <marquee class="marquee" direction="right">
         🍏 ¡Bienvenido a Frutix Max! Jugos 100% naturales 🍊
     </marquee>
 
-    <!-- Título principal -->
-    <h1 class="centrar">Bienvenidos a Mi Página “Frutix Max”</h1>
+    <!-- Inicio -->
+    <section id="inicio">
+        <h1 class="centrar">Bienvenidos a Mi Página “Frutix Max”</h1>
+        <img src="img/logo frutix max empresarial.png" alt="Frutix Max Logo" class="logo">
+        <p class="descripcion centrar">
+            Esta es una página de <b>jugos naturales</b> y 
+            <i>bebidas saludables</i> elaboradas con 
+            <span style="color:green;">ingredientes frescos</span>.
+        </p>
+    </section>
 
-    <!-- Logo -->
-    <img src="img/logo frutix max empresarial.png" alt="Frutix Max Logo" class="logo">
-
-    <!-- Descripción -->
-    <p class="descripcion centrar">
-        Esta es una página de <b>jugos naturales</b> y 
-        <i>bebidas saludables</i> elaboradas con 
-        <span style="color:green;">ingredientes frescos</span>.
-    </p>
-
-    <!-- Sección principal -->
-    <div class="seccion">
+    <!-- Productos -->
+    <section id="productos" class="seccion">
         <h2>Acerca de Nosotros</h2>
         <p>Somos una empresa dedicada a la elaboración de jugos naturales con frutas y verduras como:</p> 
         <ul>
@@ -41,22 +49,23 @@
         <p>Tenemos jugo de manzana con vitamina C<sub>2</sub>.</p>
         <p>Nuestro mejor jugo es el VIP <b>"Oasis Max"</b> con 🍉 sandía, 🥒 pepino, 🍋 limón y 🫚 jengibre.</p>
         <p>Aparte combinados como usted los prefiera en sobrepedido al WhatsApp.</p>
-    </div>
+    </section>
 
     <!-- Servicios -->
-    <h2>Nuestros Servicios</h2>
-    <ol type="a" class="lista-servicios">
-        <li>Jugos Naturales.</li>
-        <li>Bebidas naturales y aguas frescas.</li>
-        <li>Atención para eventos escolares.</li>
-    </ol>
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <ol type="a" class="lista-servicios">
+            <li>Jugos Naturales.</li>
+            <li>Bebidas naturales y aguas frescas.</li>
+            <li>Atención para eventos escolares.</li>
+        </ol>
+        <div class="centrar">
+            <a href="servicios.html" target="_blank" class="btn">Ver más servicios</a>
+        </div>
+    </section>
 
-    <div class="centrar">
-        <a href="servicios.html" target="_blank" class="btn">Ver más servicios</a>
-    </div>
-
-    <!-- Pie de página -->
-    <footer class="pie">
+    <!-- Contacto -->
+    <footer id="contacto" class="pie">
         <a href="contacto.html" target="_blank">Contacto</a>
         <span>© Frutix Max - Todos los derechos reservados</span>
     </footer>
