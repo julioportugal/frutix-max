@@ -1,14 +1,8 @@
-html, body {
-    height: 100%;              /* que el body ocupe toda la pantalla */
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background: #f8fff8;
-    display: flex;             /* estructura flexible */
-    flex-direction: column;    /* contenido en columna */
 }
 
 h1 {
@@ -62,19 +56,24 @@ h2 {
 }
 
 .pie {
+    margin-top: 20px; /* reducido para evitar huecos */
     padding: 15px;
     background: #e6e6e6;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: auto;          /* empuja el footer al fondo */
 }
 
 .lista-servicios {
     width: fit-content;
     margin: auto;
     font-size: 22px;
+}
+
+.centrar {
+    text-align: center;
+    margin-top: 25px;
 }
 
 .galeria {
@@ -95,5 +94,7 @@ h2 {
     flex-direction: column;
     text-align: center;
     gap: 10px;
+    margin-top: 10px;
   }
 }
+
